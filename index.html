@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>Check Point I</title>
 </head>
 <body>
-    
-
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+        <h1 class="titulo">Checkpoint I -  Front End II</h1>
+    </nav>
     <main class="flex">
-            <h1>Checkpoint I -  Front End II</h1>
-            <fieldset>
-                <legend>Carros</legend>
-                <form action="">
-                    <input type="text" id="modelo" placeholder="Modelo">
-                   <input type="text" id="marca" placeholder="Marca">
-                   <input type="text" id="ano" placeholder="Ano">
-                   <input type="text" id="imagem" placeholder="Url da imagem"><br>
-                   <input type="submit" id="botao" class="button">    
-           </form>
-          
-                
-            </fieldset>       
-       
-        <div>
-                <p></p>
-                <img src="" alt="" width="">
-        </div>
+            
 
+            <div class="container" >
+                <div class="row">
+                        <div class="col-md-4" id="col_um">
+                            <legend>Carros</legend>
+                            <form action="">
+                                <input type="text" id="modelo" placeholder="Modelo">
+                               <input type="text" id="marca" placeholder="Marca">
+                               <input type="text" id="ano" placeholder="Ano">
+                               <input type="text" id="imagem" placeholder="Url da imagem">
+                               <input type="submit" id="botao" class="button">    
+                             </form>
+                        </div>
+                                <div class="col-md-8" id="img">
+                                        <img src="" alt="" class="img-responsive">
+                                    <p></p>  
+                                </div>
+                            </div>
+           </div>
+            
    
 
     </main>
